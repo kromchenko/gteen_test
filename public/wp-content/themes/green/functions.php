@@ -114,6 +114,46 @@ add_action( 'widgets_init', 'green_widgets_init' );
  * Enqueue scripts and styles.
  */
 function green_scripts() {
+
+	wp_enqueue_style(
+		'green-bootstrap',
+		get_template_directory_uri() . '/css/bootstrap.min.css'
+	);
+
+	wp_enqueue_style(
+		'green-animate',
+		get_template_directory_uri() . '/css/animate.min.css'
+	);
+
+	wp_enqueue_style(
+		'green-carousel',
+		get_template_directory_uri() . '/css/carousel.css'
+	);
+
+	wp_enqueue_style(
+		'green-font-awesome',
+		get_template_directory_uri() . '/css/font-awesome.min.css'
+	);
+
+	wp_enqueue_style(
+		'green-font-awesome',
+		get_template_directory_uri() . '/css/font-awesome.min.css'
+	);
+
+	wp_enqueue_style(
+		'green-google-fonts',
+		'https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800'
+	);
+
+	wp_enqueue_style(
+		'green-mystyle',
+		get_stylesheet_uri()
+	);
+
+
+
+
+
 	wp_enqueue_style( 'green-style', get_stylesheet_uri() );
 
 	wp_enqueue_script( 'green-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
