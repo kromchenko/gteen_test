@@ -1,4 +1,6 @@
-$(function () {
+jQuery(document).ready(function ($) {
+
+    $(function () {
     /**************************************************************/
     // Initialize Isotope
     var $notes = $(".notes").isotope({
@@ -22,4 +24,6 @@ $(function () {
         $this.addClass("btn_active")
     });
     /****************************************************************/
+});
+
 });

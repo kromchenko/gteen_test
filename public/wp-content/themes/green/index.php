@@ -18,7 +18,7 @@ get_header();
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
                     <div class="slider_overlay">
-                        <img src="img/img1.jpg" alt="...">
+                        <img src="<?php echo get_template_directory_uri()?>/img/img1.jpg" alt="...">
                         <div class="carousel-caption">
                             <div class="slider_text">
                                 <h3>Protect</h3>
@@ -32,7 +32,7 @@ get_header();
                 <!--End of item With Active-->
                 <div class="item">
                     <div class="slider_overlay">
-                        <img src="img/img2.jpg" alt="...">
+                        <img src="<?php echo get_template_directory_uri()?>/img/img2.jpg" alt="...">
                         <div class="carousel-caption">
                             <div class="slider_text">
                                 <h3>Protect</h3>
@@ -46,7 +46,7 @@ get_header();
                 <!--End of Item-->
                 <div class="item">
                     <div class="slider_overlay">
-                        <img src="img/img3.jpg" alt="...">
+                        <img src="<?php echo get_template_directory_uri()?>/img/img3.jpg" alt="...">
                         <div class="carousel-caption">
                             <div class="slider_text">
                                 <h3>Protect</h3>
@@ -72,8 +72,8 @@ get_header();
             <div class="row">
                 <div class="col-md-12">
                     <div class="wel_header">
-                        <h2>welcome to green fair</h2>
-                        <p>Our Green Fire Organization is one of the non profit organization near you. Get our services like</p>
+                        <h2><?php echo get_cat_name(6);?></h2>
+                        <p><?php echo category_description(6); ?></p>
                     </div>
                 </div>
             </div>
@@ -86,8 +86,8 @@ get_header();
                                 <div class="welcome_icon">
                                     <i class="fa fa-leaf"></i>
                                 </div>
-                                <h4>eco system</h4>
-                                <p>Lorem ipsum dolor sit amet, eu qui modo expetendis reformidans ex sit set appetere sententiae seo eum in simul homero.</p>
+                                <h4><?php echo get_cat_name(7);?></h4>
+                                <p><?php echo category_description(7); ?></p>
                             </div>
                         </div>
                     </div>
@@ -100,8 +100,8 @@ get_header();
                                 <div class="welcome_icon">
                                     <i class="fa fa-refresh"></i>
                                 </div>
-                                <h4>recycling</h4>
-                                <p>Lorem ipsum dolor sit amet, eu qui modo expetendis reformidans ex sit set appetere sententiae seo eum in simul homero.</p>
+                                <h4><?php echo get_cat_name(8);?></h4>
+                                <p><?php echo category_description(8); ?></p>
                             </div>
                         </div>
                     </div>
@@ -114,8 +114,8 @@ get_header();
                                 <div class="welcome_icon">
                                     <i class="fa fa-tint"></i>
                                 </div>
-                                <h4>water refine</h4>
-                                <p>Lorem ipsum dolor sit amet, eu qui modo expetendis reformidans ex sit set appetere sententiae seo eum in simul homero.</p>
+                                <h4><?php echo get_cat_name(9);?></h4>
+                                <p><?php echo category_description(9); ?></p>
                             </div>
                         </div>
                     </div>
@@ -128,8 +128,8 @@ get_header();
                                 <div class="welcome_icon">
                                     <i class="fa fa-cog"></i>
                                 </div>
-                                <h4>solar system</h4>
-                                <p>Lorem ipsum dolor sit amet, eu qui modo expetendis reformidans ex sit set appetere sententiae seo eum in simul homero.</p>
+                                <h4><?php echo get_cat_name(10);?></h4>
+                                <p><?php echo category_description(10); ?></p>
                             </div>
                         </div>
                     </div>
@@ -220,31 +220,31 @@ get_header();
                                 <div class="img_overlay">
                                     <p>Sun Homes, Dhaka</p>
                                 </div>
-                                <img src="img/environment.jpg" alt="">
+                                <img src="<?php echo get_template_directory_uri()?>/img/environment.jpg" alt="">
                             </div>
                             <div class="note red">
                                 <div class="img_overlay">
                                     <p>Sun Homes, Dhaka</p>
                                 </div>
-                                <img src="img/portfolio_1.jpg" alt="">
+                                <img src="<?php echo get_template_directory_uri()?>/img/portfolio_1.jpg" alt="">
                             </div>
                             <div class="note green">
                                 <div class="img_overlay">
                                     <p>Sun Homes, Dhaka</p>
                                 </div>
-                                <img src="img/cliemate.jpg" alt="">
+                                <img src="<?php echo get_template_directory_uri()?>/img/cliemate.jpg" alt="">
                             </div>
                             <div class="note yellow">
                                 <div class="img_overlay">
                                     <p>Sun Homes, Dhaka</p>
                                 </div>
-                                <img src="img/photography.jpg" alt="">
+                                <img src="<?php echo get_template_directory_uri()?>/img/photography.jpg" alt="">
                             </div>
                             <div class="note black">
                                 <div class="img_overlay">
                                     <p>Sun Homes, Dhaka</p>
                                 </div>
-                                <img src="img/species.jpg" alt="">
+                                <img src="<?php echo get_template_directory_uri()?>/img/species.jpg" alt="">
                             </div>
                         </div>
                         <!--End of notes-->
@@ -279,7 +279,7 @@ get_header();
                     <div class="col-md-3">
                         <div class="counter_item text-center">
                             <div class="sigle_counter_item">
-                                <img src="img/tree.png" alt="">
+                                <img src="<?php echo get_template_directory_uri()?>/img/tree.png" alt="">
                                 <div class="counter_text">
                                     <span class="counter">1542</span>
                                     <p>tree cut</p>
@@ -290,7 +290,7 @@ get_header();
                     <div class="col-md-3">
                         <div class="counter_item text-center">
                             <div class="sigle_counter_item">
-                                <img src="img/hand.png" alt="">
+                                <img src="<?php echo get_template_directory_uri()?>/img/hand.png" alt="">
                                 <div class="counter_text">
                                     <span class="counter">1458</span>
                                     <p>animal lost</p>
@@ -301,7 +301,7 @@ get_header();
                     <div class="col-md-3">
                         <div class="counter_item text-center">
                             <div class="sigle_counter_item">
-                                <img src="img/tuhnder.png" alt="">
+                                <img src="<?php echo get_template_directory_uri()?>/img/tuhnder.png" alt="">
                                 <div class="counter_text">
                                     <span class="counter">9854</span>
                                     <p>blubs collected</p>
@@ -312,7 +312,7 @@ get_header();
                     <div class="col-md-3">
                         <div class="counter_item text-center">
                             <div class="sigle_counter_item">
-                                <img src="img/cloud.png" alt="">
+                                <img src="<?php echo get_template_directory_uri()?>/img/cloud.png" alt="">
                                 <div class="counter_text">
                                     <span class="counter">5412</span>
                                     <p>water level</p>
@@ -348,7 +348,7 @@ get_header();
                         <div class="col-md-6 zero_mp">
                             <div class="event_item">
                                 <div class="event_img">
-                                    <img src="img/tree_cut_1.jpg" alt="">
+                                    <img src="<?php echo get_template_directory_uri()?>/img/tree_cut_1.jpg" alt="">
                                 </div>
                             </div>
                         </div>
@@ -378,7 +378,7 @@ get_header();
                         <div class="col-md-6 zero_mp">
                             <div class="event_item">
                                 <div class="event_img">
-                                    <img src="img/tree_cut_2.jpg" alt="">
+                                    <img src="<?php echo get_template_directory_uri()?>/img/tree_cut_2.jpg" alt="">
                                 </div>
                             </div>
                         </div>
@@ -390,7 +390,7 @@ get_header();
                     <div class="event_news">
                         <div class="event_single_item fix">
                             <div class="event_news_img floatleft">
-                                <img src="img/tree_cut_3.jpg" alt="">
+                                <img src="<?php echo get_template_directory_uri()?>/img/tree_cut_3.jpg" alt="">
                             </div>
                             <div class="event_news_text">
                                 <a href="#"><h4>Let’s plant 200 tree each...</h4></a>
@@ -401,7 +401,7 @@ get_header();
                     <div class="event_news">
                         <div class="event_single_item fix">
                             <div class="event_news_img floatleft">
-                                <img src="img/tree_cut_4.jpg" alt="">
+                                <img src="<?php echo get_template_directory_uri()?>/img/tree_cut_4.jpg" alt="">
                             </div>
                             <div class="event_news_text">
                                 <a href="#"><h4>Keep your house envirome..</h4></a>
@@ -412,7 +412,7 @@ get_header();
                     <div class="event_news">
                         <div class="event_single_item fix">
                             <div class="event_news_img floatleft">
-                                <img src="img/tree_cut_3.jpg" alt="">
+                                <img src="<?php echo get_template_directory_uri()?>/img/tree_cut_3.jpg" alt="">
                             </div>
                             <div class="event_news_text">
                                 <a href="#"><h4>Urgent Clothe Needed Needed</h4></a>
@@ -423,7 +423,7 @@ get_header();
                     <div class="event_news">
                         <div class="event_single_item fix">
                             <div class="event_news_img floatleft">
-                                <img src="img/tree_cut_4.jpg" alt="">
+                                <img src="<?php echo get_template_directory_uri()?>/img/tree_cut_4.jpg" alt="">
                             </div>
                             <div class="event_news_text">
                                 <a href="#"><h4>One Tree Thousand Hope</h4></a>
@@ -434,7 +434,7 @@ get_header();
                     <div class="event_news">
                         <div class="event_single_item fix">
                             <div class="event_news_img floatleft">
-                                <img src="img/tree_cut_3.jpg" alt="">
+                                <img src="<?php echo get_template_directory_uri()?>/img/tree_cut_3.jpg" alt="">
                             </div>
                             <div class="event_news_text">
                                 <a href="#"><h4>One Tree Thousand Hope</h4></a>
@@ -482,7 +482,7 @@ get_header();
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="profile-circle">
-                                                        <img src="img/tree_cut_3.jpg" alt="">
+                                                        <img src="<?php echo get_template_directory_uri()?>/img/tree_cut_3.jpg" alt="">
                                                     </div>
                                                     <div class="testimonial_content">
                                                         <i class="fa fa-quote-left"></i>
@@ -495,7 +495,7 @@ get_header();
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="profile-circle">
-                                                        <img src="img/tree_cut_3.jpg" alt="">
+                                                        <img src="<?php echo get_template_directory_uri()?>/img/tree_cut_3.jpg" alt="">
                                                     </div>
                                                     <div class="testimonial_content">
                                                         <i class="fa fa-quote-left"></i>
@@ -513,7 +513,7 @@ get_header();
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="profile-circle">
-                                                        <img src="img/tree_cut_3.jpg" alt="">
+                                                        <img src="<?php echo get_template_directory_uri()?>/img/tree_cut_3.jpg" alt="">
                                                     </div>
                                                     <div class="testimonial_content">
                                                         <i class="fa fa-quote-left"></i>
@@ -526,7 +526,7 @@ get_header();
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="profile-circle">
-                                                        <img src="img/tree_cut_3.jpg" alt="">
+                                                        <img src="<?php echo get_template_directory_uri()?>/img/tree_cut_3.jpg" alt="">
                                                     </div>
                                                     <div class="testimonial_content">
                                                         <i class="fa fa-quote-left"></i>
@@ -574,7 +574,7 @@ get_header();
                     <div class="blog_news">
                         <div class="single_blog_item">
                             <div class="blog_img">
-                                <img src="img/climate_effect.jpg" alt="">
+                                <img src="<?php echo get_template_directory_uri()?>/img/climate_effect.jpg" alt="">
                             </div>
                             <div class="blog_content">
                                 <a href=""><h3>Climate change is affecting bird migration</h3></a>
@@ -603,7 +603,7 @@ get_header();
                     <div class="blog_news">
                         <div class="single_blog_item">
                             <div class="blog_img">
-                                <img src="img/air_pollutuon.jpg" alt="">
+                                <img src="<?php echo get_template_directory_uri()?>/img/air_pollutuon.jpg" alt="">
                             </div>
                             <div class="blog_content">
                                 <a href=""><h3>How to avoid indoor air pollution?</h3></a>
@@ -632,7 +632,7 @@ get_header();
                     <div class="blog_news">
                         <div class="single_blog_item">
                             <div class="blog_img">
-                                <img src="img/threat_bear.jpg" alt="">
+                                <img src="<?php echo get_template_directory_uri()?>/img/threat_bear.jpg" alt="">
                             </div>
                             <div class="blog_content">
                                 <a href=""><h3>Threat to Yellowstone’s grizzly bears.</h3></a>
@@ -694,22 +694,22 @@ get_header();
                         <div class="row">
                             <div class="col-md-3">
                                 <div class="market_logo">
-                                    <a href=""><img src="img/audiojungle.png" alt=""></a>
+                                    <a href=""><img src="<?php echo get_template_directory_uri()?>/img/audiojungle.png" alt=""></a>
                                 </div>
                             </div>
                             <div class="col-md-3">
                                 <div class="market_logo">
-                                    <a href=""><img src="img/codecanyon.png" alt=""></a>
+                                    <a href=""><img src="<?php echo get_template_directory_uri()?>/img/codecanyon.png" alt=""></a>
                                 </div>
                             </div>
                             <div class="col-md-3">
                                 <div class="market_logo">
-                                    <a href=""><img src="img/graphicriver.png" alt=""></a>
+                                    <a href=""><img src="<?php echo get_template_directory_uri()?>/img/graphicriver.png" alt=""></a>
                                 </div>
                             </div>
                             <div class="col-md-3">
                                 <div class="market_logo">
-                                    <a href=""><img src="img/audiojungle.png" alt=""></a>
+                                    <a href=""><img src="<?php echo get_template_directory_uri()?>/img/audiojungle.png" alt=""></a>
                                 </div>
                             </div>
                         </div>

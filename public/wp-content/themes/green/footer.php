@@ -19,7 +19,13 @@
 </section>
 <!--End of footer-->
 
+<!--Scroll to top-->
+<a href="#" id="back-to-top" title="Back to top">&uarr;</a>
+<!--End of Scroll to top-->
+
 <?php wp_footer(); ?>
+
 
 </body>
 </html>
+
